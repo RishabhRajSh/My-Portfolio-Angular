@@ -1,0 +1,45 @@
+.expertise {
+    display: flex;
+    flex-direction: column;
+    background: url('../../../assets/images/ImgBanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    align-items: flex-start;
+
+    h2 {
+        border-bottom: 2px solid white;
+        padding-bottom: 24px;
+        margin: 120px 24px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 42px;
+    }
+
+    .content {
+        display: flex;
+        margin-left: 24px;
+        width: 80%;
+        flex-direction: column;
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 24px;
+            margin: 0;
+            height: 120px;
+            border-bottom: 1px solid #ffffff40;
+            font-size: 32px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #ffffff40;
+            }
+        }
+       
+    }
+}
