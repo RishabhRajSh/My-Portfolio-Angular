@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+
+    &.scrolled{
+    background: #00000015;
+    backdrop-filter: blur(8px);
+    }
+
+    h2 {
+        font-weight: 500;
+        color: #fff;
+        margin-left: 24px;
+       
+    }
+    button{
+        background: #0C8CE9;
+        color: #fff;
+        height: 42px;
+        margin-right: 24px;
+
+    &:active  {
+        background: #F78F14;
+      }
+    }
+}

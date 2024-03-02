@@ -1,0 +1,75 @@
+.hero {
+    display: flex;
+    min-height: 100vh;
+    background: url('../../../assets/images/ImgPatternBg.svg'), #1e1e1e;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        padding: 0px 50px;
+
+        h1 {
+            font-size: 42px;
+            line-height: 60px;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        p {
+            letter-spacing: 1px;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+
+        .cta {
+            display: flex;
+            gap: 24px;
+
+            button {
+                width: 156px;
+                height: 44px;
+                color: #fff;
+                font-size: 14px;
+            }
+
+            .download {
+                background: #F78F14;
+
+                &:active {
+                    background: #0C8CE9;
+                }
+            }
+
+            .figma {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                cursor: pointer;
+                border-radius: 4px;
+                width: 156px;
+                height: 44px;
+                font-size: 14px;
+                background: linear-gradient( 95deg, #FF7262 8%, #A259FF 39.13%, #1ABCFE 69.27%, #0ACF83 100%);
+                
+                &:hover {
+                    background: linear-gradient( 95deg, #0ACF83 8%, #1ABCFE 39.13%, #A259FF 69.27%, #FF7262 100%);
+                }
+            }
+            .iconFigma {
+                height: 16px;
+                margin-left: 24px;
+            }
+        }
+    }
+}
+
