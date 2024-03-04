@@ -1,11 +1,29 @@
 <section class="expertise">
     <h2>From Concept to Completion</h2>
     <div class="content">
-        <p class="card">UI / UX Desigining</p>
-        <p class="card">Web Desigining</p>
-        <p class="card">Graphic Desigining</p>
-        <p class="card">Frontend Development</p>
-
+        <div class="card">
+            <p>UI / UX Desigining</p>
+            <div class="icons" *ngFor="let uiuxcontent of uiuxcontents ">
+                <img class="icon" src="{{ uiuxcontent }}" alt="IconUIUX" />
+            </div>
+        </div>
+        <div class="card">
+            <p>Graphic Desigining</p>
+            <div class="icons" *ngFor="let graphiccontent of graphiccontents ">
+                <img class="icon" src="{{ graphiccontent }}" alt="IconGraphics" />
+            </div>
+        </div>
+        <div class="card">
+            <p>Web Desigining</p>
+            <div class="icons" *ngFor="let webdesingingcontent of webdesingingcontents">
+                <img class="icon" src="{{ webdesingingcontent }}" alt="IconHtml" />
+            </div>
+        </div>
+        <div class="card">
+            <p>Frontend Development</p>
+            <div class="icons" *ngFor="let frontendcontent of frontendcontents">
+                <img class="icon" src="{{ frontendcontent }}" alt="IconTypeScript" />
+            </div>
+        </div>
     </div>
-
 </section>
