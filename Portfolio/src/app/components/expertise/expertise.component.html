@@ -1,28 +1,19 @@
 <section class="expertise">
     <h2>From Concept to Completion</h2>
-    <div class="content">
-        <div class="card">
-            <p>UI / UX Desigining</p>
-            <div class="icons" *ngFor="let uiuxcontent of uiuxcontents ">
-                <img class="icon" src="{{ uiuxcontent }}" alt="IconUIUX" />
-            </div>
-        </div>
-        <div class="card">
-            <p>Graphic Desigining</p>
-            <div class="icons" *ngFor="let graphiccontent of graphiccontents ">
-                <img class="icon" src="{{ graphiccontent }}" alt="IconGraphics" />
-            </div>
-        </div>
-        <div class="card">
-            <p>Web Desigining</p>
-            <div class="icons" *ngFor="let webdesingingcontent of webdesingingcontents">
-                <img class="icon" src="{{ webdesingingcontent }}" alt="IconHtml" />
-            </div>
-        </div>
-        <div class="card">
-            <p>Frontend Development</p>
-            <div class="icons" *ngFor="let frontendcontent of frontendcontents">
-                <img class="icon" src="{{ frontendcontent }}" alt="IconTypeScript" />
+    <div class="container">
+        <div class="content">
+            <h3 class="header">UI / UX Desigining</h3>
+            <div class="images">
+                <div class="overlap">
+                    <div class="interface">
+                        <img class="interfaceImg" src="{{interface}}" alt="interface">
+                    </div>
+                    <img class="figmaIcon" src="{{figmaIcon}}" alt="figmaIcon">
+                    <img class="framerIcon" src="{{framerIcon}}" alt="framerIcon">
+                    <img class="XDIcon" src="{{XDIcon}}" alt="XDIcon">
+                    <img class="mobile" src="{{mobile}}" alt="mobile">
+                    <img class="macbook" src="{{macbook}}" alt="macbook">
+                </div>
             </div>
         </div>
     </div>

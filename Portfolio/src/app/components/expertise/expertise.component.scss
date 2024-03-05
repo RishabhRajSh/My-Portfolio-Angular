@@ -10,6 +10,7 @@
     color: white;
     align-items: flex-start;
 
+
     h2 {
         border-bottom: 2px solid white;
         padding-bottom: 24px;
@@ -18,45 +19,69 @@
         font-weight: 500;
         font-size: 42px;
     }
-
-    .content {
+    .container {
         display: flex;
-        margin-left: 24px;
-        width: 90%;
-        flex-direction: column;
+        width: 100%;
 
-        .card {
+        .content {
             display: flex;
-            align-items: center;
+            width: 100%;
+            margin-left: 24px;
             justify-content: space-between;
-            padding-left: 12px;
-            margin: 0;
-            height: 120px;
-            border-bottom: 1px solid #ffffff40;
-            font-size: 32px;
-            cursor: pointer;
 
-            &:hover {
-                background-color: #ffffff40;
-
-                .icons {
-                    display: flex;
-                    gap: 12px;
-                    align-items: center;
-                    margin-right: 24px;
-                    transform: translateX(0);
-                    transition-delay: 250ms;
-                    
-                }
+            .header {
+                letter-spacing: 2px;
+                font-weight: 400;
+                font-size: 32px;
             }
 
-            .icons {
-                display: none;
-                transform: translateX(100%);
+            .images{
+                align-items: flex-end;
+                margin: 0px 12px 12px 0px;
+                width: 895px;
+                height: 690px;
+                
 
-                .icon {
-                    height: 64px;
-                    width: auto;
+                .overlap{
+                    top:10px;
+                    position: relative;
+                   
+
+                    .interface{
+                        position: absolute;
+                        top: 112px;
+                        left: 153px;
+
+                        .interfaceImg{
+                            position: absolute;
+                            left: -3px;
+                        }
+                    }
+                    .macbook{
+                        left: -200px;
+                        position: relative;
+                        top: 300px;
+                    }
+                    .figmaIcon{
+                        position: absolute;
+                        left: 740px;
+                        top:0;
+                    }
+                    .XDIcon{
+                        position: absolute;
+                        left: 598px;
+                        top: 500px;
+                    }
+                    .frameIcon{
+                        left: 100px;
+                        position: absolute;
+                        top:26px;
+                    }
+                    .mobile{
+                        position: absolute;
+                        left: 747px;
+                        top:232px;
+                    }
                 }
             }
         }
