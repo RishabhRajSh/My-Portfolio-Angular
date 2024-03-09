@@ -12,13 +12,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { HerosectionComponent } from './components/herosection/herosection.component';
 import { ExpertiseComponent } from './components/expertise/expertise.component';
+import { ImageBoxComponent } from './components/atoms/image-box/image-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HerosectionComponent,
-    ExpertiseComponent
+    ExpertiseComponent,
+    ImageBoxComponent
   ],
   imports: [
     BrowserModule,
