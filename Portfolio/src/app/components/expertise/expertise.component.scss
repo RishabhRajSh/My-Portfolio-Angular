@@ -6,13 +6,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    // height: 100vh;
+    height: 100vh;
     color: white;
     align-items: flex-start;
 
-    @media screen and (max-width: 900px) {
-        height: 100vh;
-    }
+    // @media screen and (max-width: 960px) {
+    //     height: 100vh;
+    // }
 
     h2 {
         border-bottom: 2px solid white;
