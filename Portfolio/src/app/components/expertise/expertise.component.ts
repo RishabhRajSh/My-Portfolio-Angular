@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 
 })
 export class ExpertiseComponent {
-
+  // images = ['../../../../assets/images/ImgUiUx.png'];
 
 }

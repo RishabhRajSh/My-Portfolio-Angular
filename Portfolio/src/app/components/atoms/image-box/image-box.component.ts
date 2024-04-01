@@ -8,6 +8,8 @@ import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 export class ImageBoxComponent implements AfterViewInit {
   @ViewChild('container') container!: ElementRef;
 
+  images = ['../../../../assets/images/ImgUiUx.png'];
+
   constructor() {}
 
   ngAfterViewInit() {
